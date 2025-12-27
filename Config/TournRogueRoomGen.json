@@ -1,0 +1,1361 @@
+﻿[
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Boss",
+    "AnchorGroup": 32,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      31,
+      32
+    ],
+    "DefaultLoadGroup": [
+      33
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Event",
+    "AnchorGroup": 35,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      34,
+      35
+    ],
+    "DefaultLoadGroup": [
+      36
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Boss",
+    "AnchorGroup": 38,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      37,
+      38
+    ],
+    "DefaultLoadGroup": [
+      39
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Elite",
+    "AnchorGroup": 41,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      40,
+      41
+    ],
+    "DefaultLoadGroup": [
+      42
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Respite",
+    "AnchorGroup": 44,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      43,
+      44
+    ],
+    "DefaultLoadGroup": [
+      63
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Shop",
+    "AnchorGroup": 46,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      45,
+      46
+    ],
+    "DefaultLoadGroup": [
+      47,
+      48
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Hidden",
+    "AnchorGroup": 50,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      49,
+      50
+    ],
+    "DefaultLoadGroup": [
+      51,
+      52,
+      53
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Coin",
+    "AnchorGroup": 55,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      54,
+      55
+    ],
+    "DefaultLoadGroup": [
+      56
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Event",
+    "AnchorGroup": 55,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      54,
+      55
+    ],
+    "DefaultLoadGroup": [
+      57,
+      58,
+      59
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Battle",
+    "AnchorGroup": 55,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      54,
+      55
+    ],
+    "DefaultLoadGroup": [
+      60,
+      61,
+      62
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Boss",
+    "AnchorGroup": 68,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      67,
+      68
+    ],
+    "DefaultLoadGroup": [
+      69
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Elite",
+    "AnchorGroup": 71,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      70,
+      71
+    ],
+    "DefaultLoadGroup": [
+      72
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Coin",
+    "AnchorGroup": 113,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      112,
+      113
+    ],
+    "DefaultLoadGroup": [
+      114
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Event",
+    "AnchorGroup": 113,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      112,
+      113
+    ],
+    "DefaultLoadGroup": [
+      115,
+      116,
+      117
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Battle",
+    "AnchorGroup": 113,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      112,
+      113
+    ],
+    "DefaultLoadGroup": [
+      118,
+      119,
+      120
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Respite",
+    "AnchorGroup": 122,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      121,
+      122
+    ],
+    "DefaultLoadGroup": [
+      123
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Shop",
+    "AnchorGroup": 125,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      124,
+      125
+    ],
+    "DefaultLoadGroup": [
+      126,
+      127
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Hidden",
+    "AnchorGroup": 130,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      129,
+      130
+    ],
+    "DefaultLoadGroup": [
+      131,
+      132,
+      133,
+      134
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Coin",
+    "AnchorGroup": 139,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      138,
+      139
+    ],
+    "DefaultLoadGroup": [
+      140
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Event",
+    "AnchorGroup": 139,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      138,
+      139
+    ],
+    "DefaultLoadGroup": [
+      141,
+      142,
+      143
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Battle",
+    "AnchorGroup": 139,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      138,
+      139
+    ],
+    "DefaultLoadGroup": [
+      144,
+      145,
+      146
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Coin",
+    "AnchorGroup": 148,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      147,
+      148
+    ],
+    "DefaultLoadGroup": [
+      149
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Event",
+    "AnchorGroup": 148,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      147,
+      148
+    ],
+    "DefaultLoadGroup": [
+      150,
+      151,
+      152
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Battle",
+    "AnchorGroup": 148,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      147,
+      148
+    ],
+    "DefaultLoadGroup": [
+      153,
+      154,
+      155
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Coin",
+    "AnchorGroup": 157,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      156,
+      157
+    ],
+    "DefaultLoadGroup": [
+      158,
+      165
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Event",
+    "AnchorGroup": 157,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      156,
+      157
+    ],
+    "DefaultLoadGroup": [
+      159,
+      160,
+      161
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060101,
+    "RoomType": "Battle",
+    "AnchorGroup": 157,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      156,
+      157
+    ],
+    "DefaultLoadGroup": [
+      162,
+      163,
+      164
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Boss",
+    "AnchorGroup": 21,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      20,
+      21
+    ],
+    "DefaultLoadGroup": [
+      22
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Elite",
+    "AnchorGroup": 24,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      23,
+      24
+    ],
+    "DefaultLoadGroup": [
+      25
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Respite",
+    "AnchorGroup": 27,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      26,
+      27
+    ],
+    "DefaultLoadGroup": [
+      46
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Shop",
+    "AnchorGroup": 29,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      28,
+      29
+    ],
+    "DefaultLoadGroup": [
+      30,
+      31
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Hidden",
+    "AnchorGroup": 33,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      32,
+      33
+    ],
+    "DefaultLoadGroup": [
+      34,
+      35,
+      36
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Coin",
+    "AnchorGroup": 38,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      37,
+      38
+    ],
+    "DefaultLoadGroup": [
+      39
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Event",
+    "AnchorGroup": 38,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      37,
+      38
+    ],
+    "DefaultLoadGroup": [
+      40,
+      41,
+      42
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Battle",
+    "AnchorGroup": 38,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      37,
+      38
+    ],
+    "DefaultLoadGroup": [
+      43,
+      44,
+      45
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Boss",
+    "AnchorGroup": 48,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      47,
+      48
+    ],
+    "DefaultLoadGroup": [
+      49
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Elite",
+    "AnchorGroup": 51,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      50,
+      51
+    ],
+    "DefaultLoadGroup": [
+      52
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Coin",
+    "AnchorGroup": 54,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      53,
+      54
+    ],
+    "DefaultLoadGroup": [
+      55
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Event",
+    "AnchorGroup": 54,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      53,
+      54
+    ],
+    "DefaultLoadGroup": [
+      56,
+      57,
+      58
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Battle",
+    "AnchorGroup": 54,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      53,
+      54
+    ],
+    "DefaultLoadGroup": [
+      59,
+      60,
+      61
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Shop",
+    "AnchorGroup": 66,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      65,
+      66
+    ],
+    "DefaultLoadGroup": [
+      67,
+      68,
+      69
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Hidden",
+    "AnchorGroup": 71,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      70,
+      71
+    ],
+    "DefaultLoadGroup": [
+      72,
+      73,
+      74,
+      75
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Coin",
+    "AnchorGroup": 77,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      76,
+      77
+    ],
+    "DefaultLoadGroup": [
+      78
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Event",
+    "AnchorGroup": 77,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      76,
+      77
+    ],
+    "DefaultLoadGroup": [
+      79,
+      80,
+      81
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Battle",
+    "AnchorGroup": 77,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      76,
+      77
+    ],
+    "DefaultLoadGroup": [
+      82,
+      83,
+      84
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Coin",
+    "AnchorGroup": 95,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      94,
+      95
+    ],
+    "DefaultLoadGroup": [
+      96
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Event",
+    "AnchorGroup": 95,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      94,
+      95
+    ],
+    "DefaultLoadGroup": [
+      97,
+      98,
+      99
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Battle",
+    "AnchorGroup": 95,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      94,
+      95
+    ],
+    "DefaultLoadGroup": [
+      100,
+      101,
+      102
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Coin",
+    "AnchorGroup": 103,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      94,
+      103
+    ],
+    "DefaultLoadGroup": [
+      104
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Boss",
+    "AnchorGroup": 109,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      108,
+      109
+    ],
+    "DefaultLoadGroup": [
+      110
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Elite",
+    "AnchorGroup": 112,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      111,
+      112
+    ],
+    "DefaultLoadGroup": [
+      113
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Coin",
+    "AnchorGroup": 115,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      114,
+      115
+    ],
+    "DefaultLoadGroup": [
+      116
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Event",
+    "AnchorGroup": 115,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      114,
+      115
+    ],
+    "DefaultLoadGroup": [
+      117,
+      118,
+      119
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Battle",
+    "AnchorGroup": 115,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      114,
+      115
+    ],
+    "DefaultLoadGroup": [
+      120,
+      121,
+      122
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Coin",
+    "AnchorGroup": 138,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      114,
+      138
+    ],
+    "DefaultLoadGroup": [
+      123
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Respite",
+    "AnchorGroup": 125,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      124,
+      125
+    ],
+    "DefaultLoadGroup": [
+      126
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Shop",
+    "AnchorGroup": 128,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      127,
+      128
+    ],
+    "DefaultLoadGroup": [
+      129,
+      130,
+      131
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Hidden",
+    "AnchorGroup": 133,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      132,
+      133
+    ],
+    "DefaultLoadGroup": [
+      134,
+      135,
+      136,
+      137
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060201,
+    "RoomType": "Boss",
+    "AnchorGroup": 143,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      142,
+      143
+    ],
+    "DefaultLoadGroup": [
+      144
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Boss",
+    "AnchorGroup": 11,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      10,
+      11
+    ],
+    "DefaultLoadGroup": [
+      12
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Elite",
+    "AnchorGroup": 14,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      13,
+      14
+    ],
+    "DefaultLoadGroup": [
+      15
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Coin",
+    "AnchorGroup": 17,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      16,
+      17
+    ],
+    "DefaultLoadGroup": [
+      18
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Event",
+    "AnchorGroup": 17,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      16,
+      17
+    ],
+    "DefaultLoadGroup": [
+      19,
+      20,
+      21
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Battle",
+    "AnchorGroup": 17,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      16,
+      17
+    ],
+    "DefaultLoadGroup": [
+      22,
+      23,
+      24
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Respite",
+    "AnchorGroup": 26,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      25,
+      26
+    ],
+    "DefaultLoadGroup": [
+      27
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Shop",
+    "AnchorGroup": 29,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      28,
+      29
+    ],
+    "DefaultLoadGroup": [
+      30,
+      31,
+      32
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Hidden",
+    "AnchorGroup": 34,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      33,
+      34
+    ],
+    "DefaultLoadGroup": [
+      35,
+      36,
+      37,
+      38
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Coin",
+    "AnchorGroup": 58,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      57,
+      58
+    ],
+    "DefaultLoadGroup": [
+      59
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Event",
+    "AnchorGroup": 58,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      57,
+      58
+    ],
+    "DefaultLoadGroup": [
+      60,
+      61,
+      62
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Battle",
+    "AnchorGroup": 58,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      57,
+      58
+    ],
+    "DefaultLoadGroup": [
+      63,
+      64,
+      65
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Coin",
+    "AnchorGroup": 67,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      66,
+      67
+    ],
+    "DefaultLoadGroup": [
+      68
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Event",
+    "AnchorGroup": 67,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      66,
+      67
+    ],
+    "DefaultLoadGroup": [
+      69,
+      70,
+      71
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060301,
+    "RoomType": "Battle",
+    "AnchorGroup": 67,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      66,
+      67
+    ],
+    "DefaultLoadGroup": [
+      72,
+      73,
+      74
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Boss",
+    "AnchorGroup": 15,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      14,
+      15
+    ],
+    "DefaultLoadGroup": [
+      16
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Elite",
+    "AnchorGroup": 18,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      17,
+      18
+    ],
+    "DefaultLoadGroup": [
+      19
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Coin",
+    "AnchorGroup": 21,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      20,
+      21
+    ],
+    "DefaultLoadGroup": [
+      22
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Event",
+    "AnchorGroup": 21,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      20,
+      21
+    ],
+    "DefaultLoadGroup": [
+      23,
+      24,
+      25
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Battle",
+    "AnchorGroup": 21,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      20,
+      21
+    ],
+    "DefaultLoadGroup": [
+      26,
+      27,
+      28
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Respite",
+    "AnchorGroup": 30,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      29,
+      30
+    ],
+    "DefaultLoadGroup": [
+      31
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Shop",
+    "AnchorGroup": 33,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      32,
+      33
+    ],
+    "DefaultLoadGroup": [
+      34,
+      35,
+      36
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Hidden",
+    "AnchorGroup": 38,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      37,
+      38
+    ],
+    "DefaultLoadGroup": [
+      39,
+      40,
+      41,
+      42
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Coin",
+    "AnchorGroup": 44,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      43,
+      44
+    ],
+    "DefaultLoadGroup": [
+      45
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Event",
+    "AnchorGroup": 44,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      43,
+      44
+    ],
+    "DefaultLoadGroup": [
+      46,
+      47,
+      48
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Battle",
+    "AnchorGroup": 44,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      43,
+      44
+    ],
+    "DefaultLoadGroup": [
+      49,
+      50,
+      51
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Coin",
+    "AnchorGroup": 53,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      52,
+      53
+    ],
+    "DefaultLoadGroup": [
+      54
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Event",
+    "AnchorGroup": 53,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      52,
+      53
+    ],
+    "DefaultLoadGroup": [
+      55,
+      56,
+      57
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Battle",
+    "AnchorGroup": 53,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      52,
+      53
+    ],
+    "DefaultLoadGroup": [
+      58,
+      59,
+      60
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Coin",
+    "AnchorGroup": 79,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      78,
+      79
+    ],
+    "DefaultLoadGroup": [
+      80
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Event",
+    "AnchorGroup": 79,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      78,
+      79
+    ],
+    "DefaultLoadGroup": [
+      81,
+      82,
+      83
+    ],
+    "SubMonsterGroup": []
+  },
+  {
+    "EntranceId": 8060401,
+    "RoomType": "Battle",
+    "AnchorGroup": 79,
+    "AnchorId": 1,
+    "DefaultLoadBasicGroup": [
+      78,
+      79
+    ],
+    "DefaultLoadGroup": [
+      84,
+      85,
+      86
+    ],
+    "SubMonsterGroup": []
+  }
+]

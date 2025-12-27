@@ -1,0 +1,75 @@
+{
+  "HttpServer": {
+    "BindAddress": "0.0.0.0",
+    "PublicAddress": "127.0.0.1",
+    "Port": 443,
+    "UseSSL": false
+  },
+  "KeyStore": {
+    "KeyStorePath": "certificate.p12",
+    "KeyStorePassword": "123456"
+  },
+  "GameServer": {
+    "BindAddress": "0.0.0.0",
+    "PublicAddress": "127.0.0.1",
+    "Port": 23301,
+    "GameServerId": "dan_heng",
+    "GameServerName": "DanhengServer",
+    "GameServerDescription": "A re-implementation of StarRail server",
+    "UsePacketEncryption": true
+  },
+  "Path": {
+    "ResourcePath": "Resources",
+    "ConfigPath": "Config",
+    "DatabasePath": "Config/Database",
+    "LogPath": "Logs",
+    "PluginPath": "Plugins"
+  },
+  "Database": {
+    "DatabaseType": "sqlite",
+    "DatabaseName": "danheng.db",
+    "MySqlHost": "127.0.0.1",
+    "MySqlPort": 3306,
+    "MySqlUser": "root",
+    "MySqlPassword": "123456",
+    "MySqlDatabase": "danheng"
+  },
+  "ServerOption": {
+    "StartTrailblazerLevel": 1,
+    "AutoUpgradeWorldLevel": true,
+    "EnableMission": true,
+    "AutoLightSection": true,
+    "Language": "CHS",
+    "FallbackLanguage": "EN",
+    "DefaultPermissions": [
+      "*"
+    ],
+    "ServerAnnounce": {
+      "EnableAnnounce": true,
+      "AnnounceContent": "Welcome to danhengserver!"
+    },
+    "ServerProfile": {
+      "Name": "StopWuyu",
+      "Uid": 5201314,
+      "Signature": "Type /help for a list of commands",
+      "Level": 70,
+      "HeadIcon": 200105,
+      "ChatBubbleId": 220001,
+      "PersonalCardId": 253001,
+      "AssistInfo": [
+        {
+          "AvatarId": 1213,
+          "Level": 80,
+          "SkinId": 0
+        }
+      ]
+    },
+    "AutoCreateUser": true,
+    "SavePersonalDebugFile": false,
+    "FarmingDropRate": 1,
+    "UseCache": true
+  },
+  "MuipServer": {
+    "AdminKey": "6b0039e6-c93a-413b-8c7d-6a051ab7f461"
+  }
+}

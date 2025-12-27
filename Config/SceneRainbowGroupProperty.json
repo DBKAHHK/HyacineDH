@@ -1,0 +1,3968 @@
+{
+  "FloorProperty": {
+    "20431001": {
+      "6": {
+        "PuzzleState": {
+          "1": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 6
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Set",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 1
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "PuzzleSolved": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 6
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "PuzzleSolved",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        },
+        "CallLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 6
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 6
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "77": {
+        "PuzzleState": {
+          "1": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 77
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Set",
+                  "PropertyValue": 3
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 3
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 5
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "PuzzleSolved": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 77
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 77,
+                  "PropertyName": "PuzzleSolved",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        },
+        "CallLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 77
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 77,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 77
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 77,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "78": {
+        "PuzzleState": {
+          "1": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 78
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Set",
+                  "PropertyValue": 6
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 8
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "2": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 78
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Set",
+                  "PropertyValue": 7
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 9
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "3": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 78
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Set",
+                  "PropertyValue": 8
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 10
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "PuzzleSolved": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 78
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "PuzzleSolved",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        },
+        "CallLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 78
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SendPacket": false
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 78
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SendPacket": false
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "24": {
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyChanged",
+                "Params": {
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 1
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 24,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyChanged",
+                "Params": {
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 2
+                }
+              }
+            ]
+          }
+        }
+      },
+      "99": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "104": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 104,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 104,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 104,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 104,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 104,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 104,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20432001": {
+      "99": {
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyChanged",
+                "Params": {
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 1
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyChanged",
+                "Params": {
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 2
+                }
+              }
+            ]
+          }
+        }
+      },
+      "52": {
+        "PuzzleState": {
+          "1": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 52
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 5
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 5
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 7
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "2": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 2
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 52
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 6
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 5
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 8
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "3": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 2
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 52
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 7
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 6
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 7
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "4": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 2
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 2
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 52
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 8
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 6
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 8
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "PuzzleSolved": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 52
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 52,
+                  "PropertyName": "PuzzleSolved",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        },
+        "CallLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 52
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 52,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 52
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 52,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "53": {
+        "PuzzleState": {
+          "1": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 53
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 1
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 3
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "2": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 2
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 53
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 2
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 1
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 4
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "3": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 2
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 53
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 3
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 2
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 3
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "4": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 2
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 2
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 53
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 4
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 2
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 4
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "PuzzleSolved": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 53
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 53,
+                  "PropertyName": "PuzzleSolved",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        },
+        "CallLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 53
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 53,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 53
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 53,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "214": {
+        "PuzzleState": {
+          "1": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "FirstPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "SecondPuzzleResultIndex",
+                  "PropertyValue": 1
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 214
+                }
+              },
+              {
+                "ActionType": "SetGroupPropertyByCopyAnother",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "PreSet",
+                  "PropertyCopyFromName": "Set"
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Set",
+                  "PropertyValue": 10
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 10
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 99
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "PuzzleSolved": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 214
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 214,
+                  "PropertyName": "PuzzleSolved",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        },
+        "CallLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 214
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 214,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 214
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 214,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "71": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 71,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 71,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 71,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 71,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 71,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 71,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "78": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "85": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 85,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 85,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 85,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 85,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 85,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 85,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "88": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 88,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 88,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 88,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 88,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 88,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 88,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "40431002": {
+      "41": {
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 41,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyChanged",
+                "Params": {
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 1
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 41,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyChanged",
+                "Params": {
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 2
+                }
+              }
+            ]
+          }
+        }
+      },
+      "31": {
+        "PuzzleState": {
+          "1": {
+            "PrivateActions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 99,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              }
+            ],
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 31
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 41,
+                  "PropertyName": "Set",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 41,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 1
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "ActionType": "PropertyValueEqual",
+                "Params": {
+                  "GroupId": 41,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1,
+                  "SuccActions": [
+                    {
+                      "ActionType": "SetFloorSavedValue",
+                      "Params": {
+                        "SavedValueName": "FSV_Rainbow",
+                        "SavedValue": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "PuzzleSolved": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 31
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "PuzzleSolved",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 41,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        },
+        "CallLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 31
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 41,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "ChangeCurrentTargetPuzzle",
+                "Params": {
+                  "GroupId": 31
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "CallLift",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 41,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "CallCurrentTargetPuzzlePropertyAction",
+                "Params": {
+                  "PropertyName": "PuzzleState"
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "40432001": {
+      "13": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "40434001": {
+      "5": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 5,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 5,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 5,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 5,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 5,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 5,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "16": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 16,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 16,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 16,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 16,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 16,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 16,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "61": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 61,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 61,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 61,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 61,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 61,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 61,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20433001": {
+      "31": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 31,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "30": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 30,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 30,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 30,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 30,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 30,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 30,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "10403001": {
+      "10": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 10,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 10,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 10,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 10,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 10,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 10,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "9": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 9,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 9,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 9,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 9,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 9,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 9,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "10401001": {
+      "13": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "10404001": {
+      "42": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 42,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 42,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 42,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 42,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 42,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 42,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20412001": {
+      "78": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 78,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20413001": {
+      "2": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 2,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 2,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 2,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 2,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 2,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 2,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "3": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 3,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 3,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 3,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 3,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 3,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 3,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20422001": {
+      "165": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 165,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 165,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 165,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 165,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 165,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 165,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "41442007": {
+      "66": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 66,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 66,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 66,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 66,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 66,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 66,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "41442005": {
+      "6": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 6,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "41442002": {
+      "13": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 13,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "14": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 14,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 14,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 14,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 14,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 14,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 14,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20423001": {
+      "43": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 43,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 43,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 43,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 43,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 43,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 43,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "46": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 46,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 46,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 46,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 46,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 46,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 46,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      "48": {
+        "Floor": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 48,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "0": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 48,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        },
+        "FloorOnLift": {
+          "1": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 48,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 0
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 48,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          },
+          "2": {
+            "Actions": [
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 48,
+                  "PropertyName": "Floor",
+                  "PropertyValue": 1
+                }
+              },
+              {
+                "ActionType": "SetGroupProperty",
+                "Params": {
+                  "GroupId": 48,
+                  "PropertyName": "FloorOnLift",
+                  "PropertyValue": 0
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

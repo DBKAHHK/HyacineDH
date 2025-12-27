@@ -1,0 +1,420 @@
+﻿using System.Collections.Concurrent;
+using EggLink.DanhengServer.Data.Config;
+using EggLink.DanhengServer.Data.Config.AdventureAbility;
+using EggLink.DanhengServer.Data.Config.Character;
+using EggLink.DanhengServer.Data.Config.Scene;
+using EggLink.DanhengServer.Data.Custom;
+using EggLink.DanhengServer.Data.Excel;
+using EggLink.DanhengServer.Enums.Rogue;
+using EggLink.DanhengServer.Enums.TournRogue;
+using EggLink.DanhengServer.Util;
+using Newtonsoft.Json;
+
+namespace EggLink.DanhengServer.Data;
+
+public static class GameData
+{
+    #region Banners
+
+    public static BannersConfig BannersConfig { get; set; } = new();
+
+    #endregion
+
+    #region VideoKeys
+
+    public static VideoKeysConfig VideoKeysConfig { get; set; } = new();
+
+    #endregion
+
+    #region Pam
+
+    public static Dictionary<int, PamSkinConfigExcel> PamSkinConfigData { get; private set; } = [];
+
+    #endregion
+
+    #region Activity
+
+    public static ActivityConfig ActivityConfig { get; set; } = new();
+
+    #region Marble
+
+    public static Dictionary<int, MarbleMatchInfoExcel> MarbleMatchInfoData { get; private set; } = [];
+    public static Dictionary<int, MarbleSealExcel> MarbleSealData { get; private set; } = [];
+
+    #endregion
+
+    #endregion
+
+    #region Avatar
+
+    public static Dictionary<int, AvatarConfigExcel> AvatarConfigData { get; private set; } = [];
+
+    public static Dictionary<int, AdventureAbilityConfigListInfo> AdventureAbilityConfigListData { get; private set; } =
+        [];
+
+    public static Dictionary<int, AvatarPromotionConfigExcel> AvatarPromotionConfigData { get; private set; } = [];
+    public static Dictionary<int, AvatarExpItemConfigExcel> AvatarExpItemConfigData { get; private set; } = [];
+    public static Dictionary<int, AvatarSkillTreeConfigExcel> AvatarSkillTreeConfigData { get; private set; } = [];
+    public static Dictionary<int, MazeSkillExcel> MazeSkillData { get; private set; } = [];
+    public static Dictionary<int, AvatarSkinExcel> AvatarSkinData { get; private set; } = [];
+    public static Dictionary<int, AvatarDemoConfigExcel> AvatarDemoConfigData { get; private set; } = [];
+    public static Dictionary<int, ExpTypeExcel> ExpTypeData { get; } = [];
+
+    public static Dictionary<int, MultiplePathAvatarConfigExcel> MultiplePathAvatarConfigData { get; private set; } =
+        [];
+
+    public static Dictionary<int, AdventurePlayerExcel> AdventurePlayerData { get; private set; } = [];
+    public static Dictionary<int, SummonUnitDataExcel> SummonUnitDataData { get; private set; } = [];
+    public static Dictionary<int, DecideAvatarOrderExcel> DecideAvatarOrderData { get; private set; } = [];
+    public static ConcurrentDictionary<int, CharacterConfigInfo> CharacterConfigInfoData { get; private set; } = [];
+
+    #endregion
+
+    #region Challenge
+
+    public static Dictionary<int, ChallengeConfigExcel> ChallengeConfigData { get; private set; } = [];
+    public static Dictionary<int, ChallengeTargetExcel> ChallengeTargetData { get; private set; } = [];
+    public static Dictionary<int, ChallengeGroupExcel> ChallengeGroupData { get; private set; } = [];
+    public static Dictionary<int, List<ChallengeRewardExcel>> ChallengeRewardData { get; private set; } = [];
+
+    #endregion
+
+    #region Battle
+
+    public static Dictionary<int, CocoonConfigExcel> CocoonConfigData { get; private set; } = [];
+    public static Dictionary<int, StageConfigExcel> StageConfigData { get; private set; } = [];
+    public static Dictionary<int, RaidConfigExcel> RaidConfigData { get; private set; } = [];
+    public static Dictionary<int, MazeBuffExcel> MazeBuffData { get; private set; } = [];
+    public static Dictionary<int, InteractConfigExcel> InteractConfigData { get; private set; } = [];
+    public static Dictionary<int, NPCMonsterDataExcel> NpcMonsterDataData { get; private set; } = [];
+    public static Dictionary<int, MonsterConfigExcel> MonsterConfigData { get; private set; } = [];
+    public static Dictionary<int, MonsterDropExcel> MonsterDropData { get; private set; } = [];
+    public static Dictionary<int, BattleCollegeConfigExcel> BattleCollegeConfigData { get; private set; } = [];
+
+    #endregion
+
+    #region ChessRogue
+
+    public static Dictionary<int, ActionPointOverdrawExcel> ActionPointOverdrawData { get; private set; } = [];
+
+    public static Dictionary<RogueDLCBlockTypeEnum, List<ChessRogueRoomConfig>>
+        ChessRogueRoomData { get; private set; } = [];
+
+    public static Dictionary<int, ChessRogueDiceSurfaceEffectConfig> ChessRogueDiceSurfaceEffectData { get; set; } = [];
+
+    public static Dictionary<int, RogueDLCAreaExcel> RogueDLCAreaData { get; private set; } = [];
+    public static Dictionary<int, RogueDLCBossDecayExcel> RogueDLCBossDecayData { get; private set; } = [];
+    public static Dictionary<int, RogueDLCBossBpExcel> RogueDLCBossBpData { get; private set; } = [];
+    public static Dictionary<int, RogueDLCDifficultyExcel> RogueDLCDifficultyData { get; private set; } = [];
+    public static Dictionary<int, RogueNousAeonExcel> RogueNousAeonData { get; private set; } = [];
+    public static Dictionary<int, RogueNousDiceBranchExcel> RogueNousDiceBranchData { get; private set; } = [];
+    public static Dictionary<int, RogueNousDiceSurfaceExcel> RogueNousDiceSurfaceData { get; private set; } = [];
+
+    public static Dictionary<int, RogueNousDifficultyLevelExcel> RogueNousDifficultyLevelData { get; private set; } =
+        [];
+
+    public static Dictionary<int, RogueNousMainStoryExcel> RogueNousMainStoryData { get; private set; } = [];
+    public static Dictionary<int, RogueNousSubStoryExcel> RogueNousSubStoryData { get; private set; } = [];
+    public static Dictionary<int, RogueNousTalentExcel> RogueNousTalentData { get; private set; } = [];
+    public static Dictionary<int, List<RogueDLCChessBoardExcel>> RogueSwarmChessBoardData { get; private set; } = [];
+    public static Dictionary<int, List<RogueDLCChessBoardExcel>> RogueNousChessBoardData { get; private set; } = [];
+
+    #endregion
+
+    #region Player
+
+    public static Dictionary<int, QuestDataExcel> QuestDataData { get; private set; } = [];
+    public static Dictionary<int, FinishWayExcel> FinishWayData { get; private set; } = [];
+    public static Dictionary<int, PlayerLevelConfigExcel> PlayerLevelConfigData { get; } = [];
+    public static Dictionary<int, BackGroundMusicExcel> BackGroundMusicData { get; private set; } = [];
+    public static Dictionary<int, ChatBubbleConfigExcel> ChatBubbleConfigData { get; private set; } = [];
+    public static Dictionary<string, RechargeConfigExcel> RechargeConfigData { get; private set; } = [];
+    public static Dictionary<int, RechargeGiftConfigExcel> RechargeGiftConfigData { get; private set; } = [];
+
+    #endregion
+
+    #region Offering
+
+    public static Dictionary<int, OfferingTypeConfigExcel> OfferingTypeConfigData { get; private set; } = [];
+
+    public static Dictionary<int, Dictionary<int, OfferingLevelConfigExcel>> OfferingLevelConfigData
+    {
+        get;
+        private set;
+    } = [];
+
+    #endregion
+
+    #region Maze
+
+    [JsonConverter(typeof(ConcurrentDictionaryConverter<string, FloorInfo>))]
+    public static ConcurrentDictionary<string, FloorInfo> FloorInfoData { get; } = [];
+
+    public static Dictionary<int, NPCDataExcel> NpcDataData { get; private set; } = [];
+    public static Dictionary<int, MapEntranceExcel> MapEntranceData { get; private set; } = [];
+    public static Dictionary<int, MazePlaneExcel> MazePlaneData { get; private set; } = [];
+    public static Dictionary<int, MazePuzzleSwitchHandExcel> MazePuzzleSwitchHandData { get; private set; } = [];
+    public static Dictionary<int, MazeChestExcel> MazeChestData { get; private set; } = [];
+    public static Dictionary<int, MazePropExcel> MazePropData { get; private set; } = [];
+    public static Dictionary<int, PlaneEventExcel> PlaneEventData { get; private set; } = [];
+    public static Dictionary<int, ContentPackageConfigExcel> ContentPackageConfigData { get; private set; } = [];
+    public static Dictionary<int, GroupSystemUnlockDataExcel> GroupSystemUnlockDataData { get; private set; } = [];
+    public static Dictionary<int, FuncUnlockDataExcel> FuncUnlockDataData { get; private set; } = [];
+    public static Dictionary<int, MusicRhythmLevelExcel> MusicRhythmLevelData { get; private set; } = [];
+    public static Dictionary<int, MusicRhythmGroupExcel> MusicRhythmGroupData { get; private set; } = [];
+    public static Dictionary<int, MusicRhythmPhaseExcel> MusicRhythmPhaseData { get; private set; } = [];
+    public static Dictionary<int, MusicRhythmSongExcel> MusicRhythmSongData { get; private set; } = [];
+    public static Dictionary<int, MusicRhythmSoundEffectExcel> MusicRhythmSoundEffectData { get; private set; } = [];
+    public static Dictionary<int, MusicRhythmTrackExcel> MusicRhythmTrackData { get; private set; } = [];
+
+    public static Dictionary<string, AdventureModifierConfig> AdventureModifierData { get; set; } = [];
+    public static SceneRainbowGroupPropertyConfig SceneRainbowGroupPropertyData { get; set; } = new();
+
+    #endregion
+
+    #region TrainParty
+
+    public static Dictionary<int, TrainPartyPassengerConfigExcel> TrainPartyPassengerConfigData { get; private set; } =
+        [];
+
+    public static Dictionary<int, TrainPartyAreaConfigExcel> TrainPartyAreaConfigData { get; private set; } = [];
+
+    public static Dictionary<int, TrainPartyAreaGoalConfigExcel> TrainPartyAreaGoalConfigData { get; private set; } =
+        [];
+
+    public static Dictionary<int, TrainPartyStepConfigExcel> TrainPartyStepConfigData { get; private set; } = [];
+    public static Dictionary<int, TrainPartyDynamicConfigExcel> TrainPartyDynamicConfigData { get; private set; } = [];
+
+    #endregion
+
+    #region Items
+
+    public static Dictionary<int, MappingInfoExcel> MappingInfoData { get; private set; } = [];
+    public static Dictionary<int, ItemConfigExcel> ItemConfigData { get; private set; } = [];
+    public static Dictionary<int, ItemUseBuffDataExcel> ItemUseBuffDataData { get; private set; } = [];
+    public static Dictionary<int, EquipmentConfigExcel> EquipmentConfigData { get; private set; } = [];
+    public static Dictionary<int, EquipmentExpTypeExcel> EquipmentExpTypeData { get; } = [];
+    public static Dictionary<int, EquipmentExpItemConfigExcel> EquipmentExpItemConfigData { get; private set; } = [];
+
+    public static Dictionary<int, EquipmentPromotionConfigExcel> EquipmentPromotionConfigData { get; private set; } =
+        [];
+
+    public static Dictionary<int, Dictionary<int, RelicMainAffixConfigExcel>> RelicMainAffixData { get; private set; } =
+        []; // groupId, affixId
+
+    public static Dictionary<int, Dictionary<int, RelicSubAffixConfigExcel>> RelicSubAffixData { get; private set; } =
+        []; // groupId, affixId
+
+    public static Dictionary<int, RelicConfigExcel> RelicConfigData { get; private set; } = [];
+    public static Dictionary<int, RelicExpItemExcel> RelicExpItemData { get; private set; } = [];
+    public static Dictionary<int, RelicExpTypeExcel> RelicExpTypeData { get; private set; } = [];
+    public static Dictionary<int, PetExcel> PetData { get; private set; } = [];
+
+    #endregion
+
+    #region Special Avatar
+
+    public static Dictionary<int, SpecialAvatarExcel> SpecialAvatarData { get; private set; } = [];
+    public static Dictionary<int, SpecialAvatarRelicExcel> SpecialAvatarRelicData { get; private set; } = [];
+
+    #endregion
+
+    #region Mission
+
+    public static Dictionary<int, MainMissionExcel> MainMissionData { get; private set; } = [];
+    public static Dictionary<int, SubMissionExcel> SubMissionData { get; private set; } = [];
+    public static ConcurrentDictionary<int, SubMissionData> SubMissionInfoData { get; private set; } = [];
+    public static Dictionary<int, RewardDataExcel> RewardDataData { get; private set; } = [];
+    public static Dictionary<int, MessageGroupConfigExcel> MessageGroupConfigData { get; private set; } = [];
+    public static Dictionary<int, MessageSectionConfigExcel> MessageSectionConfigData { get; private set; } = [];
+    public static Dictionary<int, MessageContactsConfigExcel> MessageContactsConfigData { get; private set; } = [];
+    public static Dictionary<int, MessageItemConfigExcel> MessageItemConfigData { get; private set; } = [];
+    public static Dictionary<int, PerformanceDExcel> PerformanceDData { get; private set; } = [];
+    public static Dictionary<int, PerformanceEExcel> PerformanceEData { get; private set; } = [];
+    public static Dictionary<int, StoryLineExcel> StoryLineData { get; private set; } = [];
+
+    public static Dictionary<int, Dictionary<int, StoryLineFloorDataExcel>>
+        StoryLineFloorDataData { get; private set; } = [];
+
+    public static Dictionary<int, StroyLineTrialAvatarDataExcel> StroyLineTrialAvatarDataData { get; private set; } =
+        [];
+
+    public static Dictionary<int, HeartDialScriptExcel> HeartDialScriptData { get; private set; } = [];
+    public static Dictionary<int, HeartDialDialogueExcel> HeartDialDialogueData { get; private set; } = [];
+
+    #endregion
+
+    #region Item Exchange
+
+    public static Dictionary<int, ShopConfigExcel> ShopConfigData { get; private set; } = [];
+    public static Dictionary<int, RollShopConfigExcel> RollShopConfigData { get; private set; } = [];
+    public static Dictionary<int, RollShopRewardExcel> RollShopRewardData { get; private set; } = [];
+    public static Dictionary<int, ItemComposeConfigExcel> ItemComposeConfigData { get; private set; } = [];
+
+    #endregion
+
+    #region Rogue
+
+    public static Dictionary<int, DialogueEventExcel> DialogueEventData { get; private set; } = [];
+
+    public static Dictionary<int, Dictionary<int, DialogueDynamicContentExcel>> DialogueDynamicContentData
+    {
+        get;
+        private set;
+    } = [];
+
+    public static Dictionary<int, RogueAeonExcel> RogueAeonData { get; private set; } = [];
+    public static Dictionary<int, RogueBuffExcel> RogueAeonBuffData { get; private set; } = [];
+    public static Dictionary<int, BattleEventDataExcel> RogueBattleEventData { get; private set; } = [];
+    public static Dictionary<int, List<RogueBuffExcel>> RogueAeonEnhanceData { get; private set; } = [];
+    public static Dictionary<int, RogueAreaConfigExcel> RogueAreaConfigData { get; private set; } = [];
+    public static Dictionary<int, RogueBonusExcel> RogueBonusData { get; private set; } = [];
+    public static Dictionary<int, BaseRogueBuffExcel> RogueBuffData { get; private set; } = [];
+    public static Dictionary<int, BaseRogueBuffGroupExcel> RogueBuffGroupData { get; private set; } = [];
+    public static Dictionary<int, RogueHandBookEventExcel> RogueHandBookEventData { get; private set; } = [];
+
+    public static Dictionary<int, RogueDialogueOptionDisplayExcel>
+        RogueDialogueOptionDisplayData { get; private set; } = [];
+
+    public static Dictionary<int, RogueDialogueDynamicDisplayExcel> RogueDialogueDynamicDisplayData
+    {
+        get;
+        private set;
+    } = [];
+
+    public static Dictionary<int, RogueHandbookMiracleExcel> RogueHandbookMiracleData { get; private set; } = [];
+    public static Dictionary<int, RogueManagerExcel> RogueManagerData { get; private set; } = [];
+    public static Dictionary<int, Dictionary<int, RogueMapExcel>> RogueMapData { get; private set; } = [];
+    public static Dictionary<int, List<int>> RogueMapGenData { get; set; } = [];
+    public static Dictionary<int, RogueMazeBuffExcel> RogueMazeBuffData { get; private set; } = [];
+    public static Dictionary<int, RogueMiracleExcel> RogueMiracleData { get; private set; } = [];
+    public static RogueMiracleEffectConfig RogueMiracleEffectData { get; set; } = new();
+    public static Dictionary<int, List<int>> RogueMiracleGroupData { get; set; } = [];
+    public static Dictionary<int, RogueMiracleDisplayExcel> RogueMiracleDisplayData { get; private set; } = [];
+    public static Dictionary<int, RogueMonsterExcel> RogueMonsterData { get; private set; } = [];
+    public static Dictionary<int, RogueMonsterGroupExcel> RogueMonsterGroupData { get; private set; } = [];
+    public static Dictionary<int, RogueNPCExcel> RogueNPCData { get; private set; } = [];
+    public static Dictionary<int, RogueTalkNameConfigExcel> RogueTalkNameConfigData { get; private set; } = [];
+    public static Dictionary<int, RogueRoomExcel> RogueRoomData { get; private set; } = [];
+    public static Dictionary<int, RogueTalentExcel> RogueTalentData { get; private set; } = [];
+
+    public static Dictionary<int, RogueTurntableExcel> RogueTurntableData { get; private set; } = [];
+
+    public static Dictionary<int, RogueWolfGunMiracleTargetExcel> RogueWolfGunMiracleTargetData { get; private set; } =
+        [];
+
+    #endregion
+
+    #region TournRogue
+
+    public static Dictionary<int, RogueTournAreaExcel> RogueTournAreaData { get; private set; } = [];
+    public static Dictionary<int, RogueTournWorkbenchExcel> RogueTournWorkbenchData { get; private set; } = [];
+    public static Dictionary<int, RogueTournWorkbenchFuncExcel> RogueTournWorkbenchFuncData { get; private set; } = [];
+    public static Dictionary<int, RogueTournFormulaExcel> RogueTournFormulaData { get; private set; } = [];
+    public static Dictionary<int, RogueTournTitanTalentExcel> RogueTournTitanTalentData { get; private set; } = [];
+
+    public static Dictionary<RogueTitanTypeEnum, RogueTournTitanTypeExcel>
+        RogueTournTitanTypeData { get; private set; } =
+        [];
+
+    public static Dictionary<int, RogueTournTitanBlessExcel> RogueTournTitanBlessData { get; private set; } = [];
+
+    public static Dictionary<int, RogueTournHexAvatarBaseTypeExcel> RogueTournHexAvatarBaseTypeData
+    {
+        get;
+        private set;
+    } = [];
+
+    public static Dictionary<int, RogueTournHandBookEventExcel> RogueTournHandBookEventData { get; private set; } = [];
+
+    public static Dictionary<int, RogueTournHandbookMiracleExcel> RogueTournHandbookMiracleData { get; private set; } =
+        [];
+
+    public static Dictionary<uint, RogueTournRoomExcel> RogueTournRoomData { get; private set; } = [];
+    public static Dictionary<int, RogueTournDifficultyExcel> RogueTournDifficultyData { get; private set; } = [];
+
+    public static Dictionary<int, RogueTournPermanentTalentExcel> RogueTournPermanentTalentData { get; private set; } =
+        [];
+
+    public static List<RogueTournRoomConfig> RogueTournRoomGenData { get; set; } =
+        [];
+
+    #endregion
+
+    #region RogueMagic
+
+    public static Dictionary<int, RogueMagicAreaExcel> RogueMagicAreaData { get; private set; } = [];
+    public static Dictionary<int, RogueMagicAdventureRoomExcel> RogueMagicAdventureRoomData { get; private set; } = [];
+
+    public static Dictionary<int, RogueMagicDifficultyCompExcel> RogueMagicDifficultyCompData { get; private set; } =
+        [];
+
+    public static Dictionary<int, RogueMagicStoryExcel> RogueMagicStoryData { get; private set; } = [];
+    public static Dictionary<int, RogueMagicScepterExcel> RogueMagicScepterData { get; private set; } = [];
+    public static Dictionary<int, RogueMagicRoomExcel> RogueMagicRoomData { get; private set; } = [];
+    public static Dictionary<int, RogueMagicUnitExcel> RogueMagicUnitData { get; private set; } = [];
+    public static Dictionary<int, RogueMagicTalentExcel> RogueMagicTalentData { get; private set; } = [];
+
+    public static List<RogueMagicRoomConfig> RogueMagicRoomGenData { get; set; } =
+        [];
+
+    public static Dictionary<int, int> RogueMagicLayerIdRoomCountDict { get; set; } = [];
+
+    #endregion
+
+    #region MatchThree
+
+    public static Dictionary<int, MatchThreeLevelExcel> MatchThreeLevelData { get; private set; } = [];
+    public static Dictionary<int, MatchThreeBirdExcel> MatchThreeBirdData { get; private set; } = [];
+
+    #endregion
+
+    #region Tutorial
+
+    public static Dictionary<int, TutorialDataExcel> TutorialDataData { get; private set; } = [];
+    public static Dictionary<int, TutorialGuideDataExcel> TutorialGuideDataData { get; private set; } = [];
+
+    #endregion
+
+    #region Actions
+
+    public static void GetFloorInfo(int planeId, int floorId, out FloorInfo outer)
+    {
+        FloorInfoData.TryGetValue("P" + planeId + "_F" + floorId, out outer!);
+    }
+
+    public static FloorInfo? GetFloorInfo(int floorId)
+    {
+        var entrance = MapEntranceData.FirstOrDefault(x => x.Value.FloorID == floorId);
+        if (entrance.Value == null) return null;
+
+        GetFloorInfo(entrance.Value.PlaneID, floorId, out var floorInfo);
+        return floorInfo;
+    }
+
+    public static int GetPlayerExpRequired(int level)
+    {
+        var excel = PlayerLevelConfigData[level];
+        var prevExcel = PlayerLevelConfigData[level - 1];
+        return excel != null && prevExcel != null ? excel.PlayerExp - prevExcel.PlayerExp : 0;
+    }
+
+    public static int GetAvatarExpRequired(int group, int level)
+    {
+        ExpTypeData.TryGetValue(group * 100 + level, out var expType);
+        return expType?.Exp ?? 0;
+    }
+
+    public static int GetEquipmentExpRequired(int group, int level)
+    {
+        EquipmentExpTypeData.TryGetValue(group * 100 + level, out var expType);
+        return expType?.Exp ?? 0;
+    }
+
+    public static int GetMinPromotionForLevel(int level)
+    {
+        return Math.Max(Math.Min((int)((level - 11) / 10D), 6), 0);
+    }
+
+    #endregion
+}

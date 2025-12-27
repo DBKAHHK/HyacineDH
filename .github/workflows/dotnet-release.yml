@@ -1,0 +1,96 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Release Name'
+        required: true
+        default: ''
+      body:
+        description: 'Release Body'
+        required: true
+        default: ''
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Publish win-x64
+      run: dotnet publish Program/Program.csproj -o Release/win-x64 -r win-x64 --self-contained false --framework net8.0 -p:PublishSingleFile=true
+
+    - name: Publish linux-x64
+      run: dotnet publish Program/Program.csproj -o Release/linux-x64 -r linux-x64 --self-contained false --framework net8.0 -p:PublishSingleFile=true
+
+    - name: Publish linux-arm64
+      run: dotnet publish Program/Program.csproj -o Release/linux-arm64 -r linux-arm64 --self-contained false --framework net8.0 -p:PublishSingleFile=true
+
+    - name: Publish win-x64-self-contained
+      run: dotnet publish Program/Program.csproj -o Release/win-x64-self-contained -r win-x64 --self-contained true --framework net8.0 -p:PublishSingleFile=true
+
+    - name: Publish linux-x64-self-contained
+      run: dotnet publish Program/Program.csproj -o Release/linux-x64-self-contained -r linux-x64 --self-contained true --framework net8.0 -p:PublishSingleFile=true
+
+    - name: Publish linux-arm64-self-contained
+      run: dotnet publish Program/Program.csproj -o Release/linux-arm64-self-contained -r linux-arm64 --self-contained true --framework net8.0 -p:PublishSingleFile=true
+
+    - name: Remove PDB File
+      run: |
+           rm -rf Release/win-x64/*.pdb
+           rm -rf Release/linux-x64/*.pdb
+           rm -rf Release/linux-arm64/*.pdb
+           rm -rf Release/win-x64-self-contained/*.pdb
+           rm -rf Release/linux-x64-self-contained/*.pdb
+           rm -rf Release/linux-arm64-self-contained/*.pdb
+
+    - name: Zip File
+      run: |
+           mkdir z
+           cd Release
+           zip -r ../z/win-x64.zip win-x64/
+           zip -r ../z/linux-x64.zip linux-x64/
+           zip -r ../z/linux-arm64.zip linux-arm64/
+           zip -r ../z/win-x64-self-contained.zip win-x64-self-contained/
+           zip -r ../z/linux-x64-self-contained.zip linux-x64-self-contained/
+           zip -r ../z/linux-arm64-self-contained linux-arm64-self-contained/
+           cd ..
+
+    - name: Body
+      run: |
+           echo -e "${{ inputs.body }}" > z/body.txt
+
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      with:
+        body_path: z/body.txt
+        name: ${{ inputs.name }}
+        tag_name: Release-${{ github.sha }}
+        repository: EggLinks/DanhengServer-Public
+        # note you'll typically need to create a personal access token
+        # with permissions to create releases in the other repo
+        token: ${{ secrets.GITHUB_TOKEN }}
+        # upload except pdb file
+        files: |
+          z/win-x64.zip
+          z/linux-x64.zip
+          z/linux-arm64.zip
+          z/win-x64-self-contained.zip
+          z/linux-x64-self-contained.zip
+          z/linux-arm64-self-contained.zip

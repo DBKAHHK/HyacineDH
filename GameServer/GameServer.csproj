@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>EggLink.DanhengServer.GameServer</RootNamespace>
+    <StartupObject></StartupObject>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>DanhengGameServer</AssemblyName>
+    <ApplicationIcon>Danheng.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <Content Include="Danheng.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\DanhengKcpSharp\DanhengKcpSharp.csproj" />
+    <ProjectReference Include="..\Proto\Proto.csproj" />
+    <PackageReference Include="Google.Protobuf" Version="3.29.1" />
+    <PackageReference Include="Google.Protobuf.Tools" Version="3.29.1" />
+    <PackageReference Include="McMaster.NETCore.Plugins" Version="1.4.0" />
+    <PackageReference Include="McMaster.NETCore.Plugins.Mvc" Version="1.4.0" />
+    <PackageReference Include="System.IO.Pipelines" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Server\Packet\Send\Chat\" />
+    <Folder Include="Server\Packet\Send\ContentPackage\" />
+    <Folder Include="Server\Packet\Send\JukeBox\" />
+    <Folder Include="Server\Packet\Send\MapRotation\" />
+    <Folder Include="Server\Packet\Send\Message\" />
+    <Folder Include="Server\Packet\Send\Phone\" />
+    <Folder Include="Server\Packet\Send\PlayerBoard\" />
+    <Folder Include="Server\Packet\Send\RollShop\" />
+    <Folder Include="Server\Packet\Send\StoryLine\" />
+    <Folder Include="Server\Packet\Send\PlayerSync\" />
+    <Folder Include="Server\Packet\Send\TalkEvent\" />
+  </ItemGroup>
+
+</Project>
