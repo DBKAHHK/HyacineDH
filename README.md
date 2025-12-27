@@ -35,6 +35,7 @@
 
 1. 在 [仓库发布页](https://github.com/DBKAHHK/HyacineDH/) 下载可执行文件 (暂时并未提供编译版本）
 2. 打开下载完成的 `DanhengServer.zip` 解压至任意文件夹 __*应当使用英文路径*__
+3. 提示：内置资源缓存。你可以直接启动服务器，而不必下载Resources
 
 > (可选) 在源代码的WebServer文件夹中下载 `certificate.p12` 使得以HTTPS模式启动 ~~没有用处~~: )
 
