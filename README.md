@@ -95,3 +95,4 @@ cd DanhengServer
 - [LunarCore](https://github.com/Melledy/LunarCore) - 一些数据结构和算法
 - C1enQwq - 提供一些代码，还有原型文件
 - Skuld - 我第一位测试者
+- StopWuyu及DanhengServer的其它开发者 - 本项目是3.4版本的Danheng Server的Fork仓库
