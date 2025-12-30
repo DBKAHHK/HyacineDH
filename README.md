@@ -14,6 +14,9 @@
 
 [EN](docs/README_en-US.md) | [簡中](README.md) | [繁中](docs/README_zh-CN.md) | [JP](docs/README_ja-JP.md)
 
+## 📖介绍
+特征：支持游戏的3.8版本。
+
 ## 💡功能
 
 - [√] **商店**
