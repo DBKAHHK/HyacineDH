@@ -37,11 +37,11 @@
 
 ### 快速启动
 
-1. 在 [仓库发布页](https://github.com/DBKAHHK/HyacineDH/) 下载可执行文件 (暂时并未提供编译版本）
-2. 打开下载完成的 `DanhengServer.zip` 解压至任意文件夹 __*应当使用英文路径*__
+1. 在 [仓库发布页](https://github.com/DBKAHHK/HyacineDH/releases/tag/v1.0) 下载可执行文件
+2. 打开下载完成的 `HyacineDH.zip` 解压至任意文件夹 __*应当使用英文路径*__
 3. 提示：内置资源缓存。你可以直接启动服务器，而不必下载Resources
 
-> (可选) 在源代码的WebServer文件夹中下载 `certificate.p12` 使得以HTTPS模式启动 ~~没有用处~~: )
+> (可选) 在源代码的WebServer文件夹中下载 `certificate.p12` 使得以HTTPS模式启动 ~~增加了一点没用的安全性~~: )
 
 3. 运行GameServer.exe
 4. 运行代理 启动游戏 链接，享受！
