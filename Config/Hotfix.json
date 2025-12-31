@@ -16,11 +16,11 @@
       "IfixUrl": ""
     },
     "CN3.8.0": {
-      "AssetBundleUrl": "https://autopatchcn.bhsr.com/asb/V3.8Live/output_13040595_9e9bd95c56a5_b73e4b4b12fbc2",
+      "AssetBundleUrl": "",
       "ExAssetBundleUrl": "",
-      "ExResourceUrl": "https://autopatchcn.bhsr.com/design_data/V3.8Live/output_13204344_748609436fa3_46e524d0783de5",
-      "LuaUrl": "https://autopatchcn.bhsr.com/lua/V3.8Live/output_13140541_b67fff8d3856_b6b1f085756c4d",
-      "IfixUrl": "https://autopatchcn.bhsr.com/ifix/V3.8Live/output_13140927_1d93c21ac1a0_9ccdd666f30010"
+      "ExResourceUrl": "",
+      "LuaUrl": "",
+      "IfixUrl": ""
     },
     "OS3.8.0": {
       "AssetBundleUrl": "",
