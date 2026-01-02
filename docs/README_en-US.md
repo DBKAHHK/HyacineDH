@@ -22,10 +22,10 @@ support game version 3.8
 - [√] **Battle** - Some errors are exist among scene skills
 - [√] **Scene** - Walking simulator, interaction, correct loading of entities
 - [√] **Basic character development** - Some minor bugs that don't significantly affect the playing experience
-~~- [√] **Quests**~~ - No we don't support now
+- [√] ~~**Quests**~~ - No we don't support now
 - [√] **Friends**
 - [√] **Forgotten Hall & Pure Fiction & Apocalyptic Shadow**
-~~- [√] **Simulated Universe & Gold and Gears**~~
+- [√] ~~**Simulated Universe & Gold and Gears**~~
 - [√] **Achievements** - Most achievements can be completed.
 
 - [ ] **More**  - Coming soon
