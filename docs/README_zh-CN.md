@@ -94,4 +94,3 @@ cd DanhengServer
 - [SqlSugar](https://github.com/donet5/SqlSugar) - 提供 ORM
 - [LunarCore](https://github.com/Melledy/LunarCore) - 一些数据结构和算法
 - C1enQwq - 提供一些代码，还有原型文件
-- 哦对了，还有亲爱的Xeondev，是他们提供了Dispatch思路 （https://git.xeondev.com/HonkaiSlopRail/dahlia-sr-0.14.1）
