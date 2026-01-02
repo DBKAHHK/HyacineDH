@@ -12,7 +12,8 @@
 </p>
 
 [EN](README.md) | [簡中](docs/README_zh-CN.md) | [繁中](docs/README_zh-CN.md) | [JP](docs/README_ja-JP.md)
-
+## 📖Introduce
+support game version 3.8
 ## 💡 Function
 
 - [√] **Shop**
@@ -21,22 +22,20 @@
 - [√] **Battle** - Some errors are exist among scene skills
 - [√] **Scene** - Walking simulator, interaction, correct loading of entities
 - [√] **Basic character development** - Some minor bugs that don't significantly affect the playing experience
-- [√] **Quests** - There may be some bugs in some missions, the main story before Penacony is basically playable, and most of the story after Penacony has bugs
+~~- [√] **Quests**~~ - No we don't support now
 - [√] **Friends**
 - [√] **Forgotten Hall & Pure Fiction & Apocalyptic Shadow**
-- [√] **Simulated Universe & Gold and Gears**
+~~- [√] **Simulated Universe & Gold and Gears**~~
 - [√] **Achievements** - Most achievements can be completed.
 
 - [ ] **More**  - Coming soon
-
-Some functions for the game might not support at the first time when new "Anime Game" version drops, please stay tune to our new commit. Since version 2.3, we've created a private fork which supports beta version, and will merge to main branch asap when it's ready.
 
 ## 🍗 Use & Installation
 
 ### Quick Start
 
-1. Download the executable file from [Action](https://github.com/EggLinks/DanhengServer/actions)
-2. Open the downloaded `DanhengServer.zip` and extract it to any folder __*preferably an English path__
+1. Download the executable file from [Release](https://github.com/DBKAHHK/HyacineDH/releases)
+2. Open the downloaded `HyacineDH.zip` and extract it to any folder __*preferably an English path__
    (Optional) Download the `certificate.p12` from the WebServer folder of the source code to enable HTTPS mode, ensuring a more secure traffic
 3. Run GameServer.exe
 4. Run proxy, start the game, and enjoy!
@@ -53,8 +52,8 @@ DanhengServer is built using .NET Framework
 ##### Windows
 
 ```shell
-git clone --recurse-submodules https://github.com/EggLinks/DanhengServer.git
-cd DanhengServer
+git clone --recurse-submodules https://github.com/DBKAHHK/HyacineDH.git
+cd HyacineDH
 dotnet build # compile
 ```
 ##### Linux （Ubuntu 20.04）
@@ -70,8 +69,8 @@ sudo apt-get update && \
 
 - Compile and run environment
 ```shell
-git clone --recurse-submodules https://github.com/EggLinks/DanhengServer.git
-cd DanhengServer
+git clone --recurse-submodules https://github.com/DBKAHHK/HyacineDH.git
+cd HyacineDH
 .\dotnet build # compile
 ./Gameserver
 ```
@@ -90,3 +89,4 @@ For solutions to common problems or assistance, please join our Discord server a
 - Weedwacker - Provides kcp implementation
 - [SqlSugar](https://github.com/donet5/SqlSugar) - Provides ORM
 - [LunarCore](https://github.com/Melledy/LunarCore) - Some data structures and algorithms
+- This server fork from [DanhengServer-OpenSource](https://github.com/EggLinks/DanhengServer-OpenSource).
