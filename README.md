@@ -1,7 +1,6 @@
 # HyacineDH
 
 **__此项目正在开发中！__**
-原仓库地址: [https://github.com/EggLinks/DanhengServer-OpenSource](https://github.com/EggLinks/DanhengServer-OpenSource)
 
 <p align="center">
 <a href="https://visualstudio.com"><img src="https://img.shields.io/badge/Visual%20Studio-000000.svg?style=for-the-badge&logo=visual-studio&logoColor=white" /></a>
@@ -25,10 +24,10 @@
 - [√] **战斗** - 场景技能中有一些错误
 - [√] **场景** - 行走模拟器、交互逻辑、实体加载
 - [√] **基本的角色培养** - 应该没问题
-- [√] **任务** - 并不支持
+- [√] ~~**任务**~~ - 并不支持
 - [√] **朋友** - 支持
 - [√] **忘却之庭 & 虚构叙事 & 末日幻影** - 异相仲裁正在开发中
-- [√] **模拟宇宙 & 黄金机械** - 无法游玩: )
+- [√] ~~**模拟宇宙 & 黄金机械**~~ - 无法游玩: )
 - [√] **成就** - 可用
 
 - [ ] **更多**  - Coming soon...
@@ -87,7 +86,7 @@ cd DanhengServer
 ## ❓帮助
 
 - 支持安卓系统
-- 存在大量问题，请进入我们的服务器或提交issue反馈
+- 发现问题，请进入我们的服务器或提交issue反馈
 
 ## ❕️故障排除
 
@@ -99,5 +98,4 @@ cd DanhengServer
 - [SqlSugar](https://github.com/donet5/SqlSugar) - 提供 ORM
 - [LunarCore](https://github.com/Melledy/LunarCore) - 一些数据结构和算法
 - C1enQwq - 提供一些代码，还有原型文件
-- Skuld - 我第一位测试者
-- StopWuyu及DanhengServer的其它开发者 - 本项目是DanhengServer的Fork仓库
+- StopWuyu及DanhengServer的其它开发者 - 本项目是[DanhengServer-OpenSource](https://github.com/EggLinks/DanhengServer-OpenSource)的fork仓库
